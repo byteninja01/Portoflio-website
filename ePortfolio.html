@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Ujjwal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        * {
+          margin: 0;
+          padding: 0;
+        }
+        body {
+        background-color: rgb(7, 1, 22);
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 75px;
+        background-color: rgb(1, 6, 37);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: wheat;
+      }
+      nav ul li a:hover {
+        color: greenyellow;
+        font-size: 1.07rem;
+      }
+      main hr {
+        border: 2;
+        background: #e94edc;
+        height: 1.2px;
+        margin: 40px ,  100px;
+      }
+      .sec p {
+        height: 200px;
+        width: 1000px;
+        padding-top: 3px;
+      }
+      .left {
+        font-size: 1.3rem;
+      }
+      .first {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 140px, 0;
+        height: 400px;
+      }
+      .first >  div {
+        width: 30%;
+      }
+
+      .leftSection {
+        font-size: 1.9rem;
+        align-content: space-around;
+        color: white;
+        margin: 10px, 0 ;
+      }
+
+      .rightSection img{
+        width: 80%;;
+        margin: 50px 0;
+        width: 80px;
+      }
+      .purp {
+        color: rgb(168, 72, 233);
+      }
+      #element {
+        color: rgb(168, 72, 233);
+      }
+      .sec {
+        max-width: 80vw;
+        margin: auto;
+      }
+      .sec h1 {
+        font-size: 1.9rem;
+
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left"> Ujjwal's Portfolio</div>
+        <div class="right">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Socials</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contect me</a></li>
+            </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="leftSection">
+                Hi, I am <span class="purp"> Ujjwal Sharma</span>
+                <div>Welcome to my</div>
+                <div>GDG Task Web</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="jhtml.png" alt="photu">
+            </div>
+        </section>
+        <hr>
+        <section class="sec">
+            <h1>About Me</h1>
+            <p> I am Ujjwal Kumar Sharma. I have a deep-seated passion for technology and am always eager to expand my knowledge in this ever-evolving field. I have proficiency in C programming and a solid foundation in basic web development. Moreover, I am highly interested in the fascinating world of cybersecurity. My curiosity and dedication drive me to constantly learn and innovate, aiming to make a significant impact in the tech world.</p>
+            <div><h1> My future goals for 2 years</h1></div>
+            <div>
+                <ul>
+                <li>Explore new feilds of technology like AI</li>
+                <li>Work towards being better</li>
+                <li>Persnality Development</li>
+              </ul>
+            </div>
+        </section>
+        <hr>
+        
+    </main>
+    <footer>
+        <nav>
+            <div class="left"> Thanks for Visiting </div>
+            <div class="right">
+                <ul>
+                    <li><a href="www.instagram.com">Instagram:- @ujjwalk_sharma</a></li>
+                    <li><a href="/">Github account</a></li>
+                    <li><a href="/">Twitter</a></li>
+                </ul>
+            </div>
+          </nav>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['<i>I am passionate to join </i> GDG', '&amp; to create more projects.'],
+          typeSpeed: 80,
+        });
+      </script>
+    <script src="script.js"></script>
+  </body>
+</html>
