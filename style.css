@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+  background-color: rgb(7, 1, 22);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+  background-color: rgb(1, 6, 37);
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: wheat;
+}
+nav ul li a:hover {
+  color: greenyellow;
+  font-size: 1.07rem;
+}
+main hr {
+  border: 2;
+  background: #e94edc;
+  height: 1.2px;
+  margin: 40px ,  100px;
+}
+.sec p {
+  height: 200px;
+  width: 1000px;
+  padding-top: 3px;
+}
+.left {
+  font-size: 1.3rem;
+}
+.first {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 140px, 0;
+  height: 400px;
+}
+.first >  div {
+  width: 30%;
+}
+
+.leftSection {
+  font-size: 1.9rem;
+  align-content: space-around;
+  color: white;
+  margin: 10px, 0 ;
+}
+
+.rightSection img{
+  width: 80%;;
+  margin: 50px 0;
+  width: 80px;
+}
+.purp {
+  color: rgb(168, 72, 233);
+}
+#element {
+  color: rgb(168, 72, 233);
+}
+.sec {
+  max-width: 80vw;
+  margin: auto;
+}
+.sec h1 {
+  font-size: 1.9rem;
+
+}
